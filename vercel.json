@@ -5,8 +5,7 @@
   "devCommand": "pnpm dev",
   "functions": {
     "server/**/*.ts": {
-      "memory": 1024,
-      "maxDuration": 60
+      "maxDuration": 30
     }
   },
   "rewrites": [
