@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO expenses (userId, category, amount, date, description, createdAt, updatedAt) VALUES\n(1, 'Alimentação', 45000, '2025-10-28', 'Compras no supermercado', NOW(), NOW()),\n(1, 'Transporte', 15000, '2025-10-27', 'Combustível', NOW(), NOW()),\n(1, 'Lazer', 20000, '2025-10-26', 'Cinema e jantar', NOW(), NOW()),\n(1, 'Moradia', 120000, '2025-10-25', 'Aluguel', NOW(), NOW()),\n(1, 'Saúde', 8000, '2025-10-24', 'Farmácia', NOW(), NOW()),\n(1, 'Educação', 30000, '2025-10-23', 'Curso online', NOW(), NOW()),\n(1, 'Compras', 25000, '2025-10-22', 'Roupas', NOW(), NOW()),\n(1, 'Utilidades', 12000, '2025-10-21', 'Contas', NOW(), NOW()),\n(1, 'Lazer', 18000, '2025-10-20', 'Restaurante', NOW(), NOW());",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4JhCzYk5LwDfyme.root --database mkCzwjuq4o5vuJL9ZpYv4C --execute INSERT INTO expenses (userId, category, amount, date, description, createdAt, updatedAt) VALUES\n(1, 'Alimentação', 45000, '2025-10-28', 'Compras no supermercado', NOW(), NOW()),\n(1, 'Transporte', 15000, '2025-10-27', 'Combustível', NOW(), NOW()),\n(1, 'Lazer', 20000, '2025-10-26', 'Cinema e jantar', NOW(), NOW()),\n(1, 'Moradia', 120000, '2025-10-25', 'Aluguel', NOW(), NOW()),\n(1, 'Saúde', 8000, '2025-10-24', 'Farmácia', NOW(), NOW()),\n(1, 'Educação', 30000, '2025-10-23', 'Curso online', NOW(), NOW()),\n(1, 'Compras', 25000, '2025-10-22', 'Roupas', NOW(), NOW()),\n(1, 'Utilidades', 12000, '2025-10-21', 'Contas', NOW(), NOW()),\n(1, 'Lazer', 18000, '2025-10-20', 'Restaurante', NOW(), NOW());",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 134
+}
